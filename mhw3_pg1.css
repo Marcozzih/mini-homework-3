@@ -1,0 +1,147 @@
+body {
+    color: white;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  width: 100vw;
+  font-family: 'Sofia', sans;
+  background-color: black;
+
+
+
+}
+
+nav #titolo {
+  font-size: 2rem;
+  margin: 40px;
+}
+
+nav #link a {
+  margin: 0px 3vw;
+}
+
+a.button {
+  background-color: rgb(255, 200, 8, 1);
+  padding: 10px 14px;
+  border-radius: 5px;
+}
+
+a.button:hover {
+  background-color: rgb(255, 200, 8, 0.9);
+}
+
+
+/*  per la sezione random albums  */
+section {
+  color: black;
+
+
+  text-align: center;
+  
+}
+
+#radAlbums {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+  
+  position: relative;
+  margin-top: 50px;
+
+}
+
+#radAlbums div {
+  width: 15vw;
+
+  font-size: 10px;
+  font-family: Arial;
+  letter-spacing: 1.5px;
+
+}
+
+#radAlbums img {
+  border: 0.5px solid black;
+}
+/* * *per la sezione della ricerca * * */
+
+
+#vetrina {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#vetrina div {
+  width: 15vw;
+
+  font-size: 10px;
+  font-family: Arial;
+  letter-spacing: 1.5px;
+
+}
+
+#vetrina img {
+  border: 0.5px solid black;
+
+  width: 180px;
+  height: 180px;
+}
+
+/* * * per il form * * */
+
+#input {
+ position: absolute;
+}
+
+.input_view {
+  top: 50px;
+  left: 70%;
+  
+}
+
+.input_hidden {
+  top: 350px;
+  left: 70%;
+}
+/* * * per la versione mobile * * */
+#menu {
+  display: none;
+ }
+ #menu div{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 40px;
+  border-radius: 5px;
+ }
+
+ 
+ @media (max-width: 700px) {
+  #link {
+  display: none;
+  }
+  #menu
+  {
+  display: block;
+  }
+ }
+ 
+ 
+ 
